@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'now/index'
+root to: 'now#index'
   devise_for :admins
   devise_for :companies
   devise_for :users
