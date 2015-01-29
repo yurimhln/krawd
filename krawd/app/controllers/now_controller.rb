@@ -1,5 +1,5 @@
 class NowController < ApplicationController
   def index
-  	render @posts
+    render @posts
   end
 end
